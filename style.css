@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.speech {
+    width: 100%;
+    /*  background: linear-gradient(39deg, #09203F, #537895); */
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.speech h1 {
+    color: rgb(241 127 1);
+    font-size: 51px;
+    font-weight: 11500;
+    margin-top: -257px;
+    padding: 146px;
+    margin-bottom: -42px;
+    font-family: " " Gill Sans", sans-serif;",
+}
+
+.speech h1 span {
+    color: rgb(153, 208, 4);
+    font-family: "Kanit",
+        sans-serif;
+
+}
+
+textarea {
+    border-radius: 40px;
+    width: 586px;
+    height: 315px;
+    background: linear-gradient(45deg, #A1C4FD, #C2E9FB);
+    color: black;
+    font-size: 15px;
+    padding: 20px;
+    outline: 10px;
+    resize: none;
+    margin-bottom: 38px;
+}
+
+.rowelements {
+    width: 553px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.rowelements button {
+    background: coral;
+    border-radius: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+    border: 0px;
+    outline-color: white;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 220px;
+}
+
+.rowelements button img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+.speech {
+    animation: pulse 20s infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        background: linear-gradient(43deg, #C33764, #1D2671);
+    }
+
+    50% {
+        background: linear-gradient(42deg, #614385, #516395);
+    }
+}
